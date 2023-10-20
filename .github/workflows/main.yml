@@ -40,7 +40,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED_LANGS: HTML
+        EXCLUDED_LANGS: HTML,Java,PHP
         EXCLUDE_FORKED_REPOS: true
 
     # Commit all changed files to the repository
